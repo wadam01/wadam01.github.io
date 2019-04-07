@@ -11,3 +11,37 @@
 .akapit::first-line {
     color: cyan;
 }
+
+.customer-list__item {
+    color: chartreuse;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.customer-list__item:first-child{
+    font-size: 22px;
+    color: darkgoldenrod;
+}
+
+.customer-list__item:nth-child(8) {
+    text-transform: uppercase;
+    color: darkgreen;
+}
+.customer-list__item:nth-child(3n + 4) {
+    background-color: beige;
+}
+
+input:focus {
+    border: 2px dashed red;
+
+}
+button:hover {
+    background-color: aquamarine;
+}
+
+button:active {
+    background-color: brown;
+}
+
+
+
