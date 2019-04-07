@@ -1,0 +1,34 @@
+* {
+    color: aqua;
+}
+
+#main-text {
+    color: blueviolet;
+    font-size: 26px;
+}
+
+.decor-text {
+    text-transform: uppercase;
+}
+
+div.decor-text {
+    color: teal;
+    background-color: chocolate;
+}
+
+ul li {
+    margin-bottom: 30px;
+    color: crimson;
+}
+ul li.active {
+    font-size: 21px;
+}
+
+ul li a {
+    color: crimson;
+}
+
+ul li.active + li {
+    margin-top: 20px;
+    font-style: italic;
+}
