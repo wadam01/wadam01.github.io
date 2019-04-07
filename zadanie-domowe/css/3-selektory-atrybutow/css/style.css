@@ -1,0 +1,19 @@
+[title] {
+    color: blueviolet;
+}
+[title="Contact"] {
+    background-color: aqua;
+}
+[title*="olio"] {
+    background-color: forestgreen;
+}
+[title^="More"] {
+    text-transform: uppercase;
+}
+[title$="More"] {
+    text-decoration: underline black;
+}
+
+[title]:last-child {
+    font-size: 22px;
+}
