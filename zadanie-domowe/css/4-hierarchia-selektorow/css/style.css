@@ -1,0 +1,12 @@
+#text {
+    background-color: chartreuse;
+}
+.text {
+    background-color: blue;
+}
+
+p {
+    background-color: aqua !important;
+}
+
+
