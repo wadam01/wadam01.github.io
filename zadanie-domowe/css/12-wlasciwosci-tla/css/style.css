@@ -1,0 +1,7 @@
+#background-img {
+    background-color: teal;
+    background-image: url(../img/truskawka.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px 100px;
+    background-size: 50% 50%;
+}
