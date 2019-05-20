@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* [class^='container'] {
+    height: 200px;
+    background: burlywood;
+}
+
+[class^='container']:last-of-type {
+    background: rebeccapurple;
+} */
+
+.item {
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+}
+
+.item:nth-of-type(2) {
+    background: gold;
+}
+
+.item:nth-of-type(3) {
+    background: green;
+}
+
+body {
+    height: 200vh;
+}
+
+.carousel img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}

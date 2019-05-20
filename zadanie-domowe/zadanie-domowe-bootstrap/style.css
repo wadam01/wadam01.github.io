@@ -1,0 +1,12 @@
+.fab {
+    font-size: 60px;
+    color: gold;
+    margin-top: 20px;
+}
+.wrap {
+    background-color: #cacaca;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}

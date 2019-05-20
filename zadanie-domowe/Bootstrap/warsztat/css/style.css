@@ -1,0 +1,91 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    padding: 10px 0;
+}
+h3 {
+    color: #fff;
+}
+.custom-menu {
+    background-color: #444;
+}
+
+.custom-menu a {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.main {
+    background-image: url(/zadanie-domowe/Bootstrap/warsztat/img/form-background.jpg);
+    height: calc(100vh - 40px);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.custom-btn {
+    width: 100%;
+    background-color: #e38f42;
+    border: none;
+}
+
+.custom-btn-color {
+    background-color: #e38f42;
+    border: none;
+}
+
+.form-box {
+    color: #c2c2c2;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-box span {
+    color: #e38f42;
+}
+
+.form-box-heading {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-text {
+    color: #fff;
+    padding-top: 60px;
+}
+.custom-btn2 {
+    background-color: rgba(0, 0, 0, 0.35);
+    border: none;
+}
+.inspiration,
+.footer {
+    padding: 100px 0;
+}
+.footer {
+    background-color: #f8f8f8;
+}
+.footer a,
+.inspiration a {
+    color: #e38f42;
+}
+.fa-pencil-alt {
+    font-size: 40px;
+}
+.fa-chevron-right,
+.fa-lightbulb {
+    margin-left: 5px;
+}
+
+.custom-btn-color,
+.custom-btn2 {
+    padding: 15px;
+}
+.btn-wrapper {
+    margin-top: 20px;
+}
