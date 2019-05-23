@@ -14,13 +14,13 @@ body {
 	h1, h2, h3, h4, h5, h6 {
 		text-transform: $text-transform-base;
 		color: $color-headings;
-		font-family: $font-secondary;
+		font-family: $font-archivo;
 		margin-bottom: $baseline;
 		margin-top: $baseline;
 	}
 
 	h1 {
-		font-size: $base-font-size + 33;
+		font-size: 66px;
 	}
 
 	h2 {
@@ -44,12 +44,12 @@ body {
 	}
 
 	a {
-    	color: $color-link;
+    	color: #a5e200;
     	text-decoration: none;
     }
 
     a:hover {
-    	color: $color-link-hover;
+    	color: #88ba00;
     }
 
     .overlay {

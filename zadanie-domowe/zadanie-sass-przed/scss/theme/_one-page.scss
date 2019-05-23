@@ -20,8 +20,8 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                width: 96px;
+                height: 96px;
                 border-radius: 100%;
                 line-height: $base-font-size * 4.5;
                 background-color: $color-primary;
@@ -167,7 +167,7 @@
     }
 
     #counters-services {
-    background-color: $color-background;
+    background-color: #f0f4dc;
     padding: ($baseline * 4) $padding-none $baseline;
 
         .icon-services {
@@ -236,6 +236,7 @@
 
     #team {
         padding: $baseline $padding-none;
+        background-color: #f0f4dc;
 
         .container {
             margin-top: $baseline * 3;

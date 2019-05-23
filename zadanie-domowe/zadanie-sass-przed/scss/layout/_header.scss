@@ -92,7 +92,7 @@ header.header-image {
 @media(min-width:768px) {
 
     .header-contact {
-    	background-color: $color-background;
+    	background-color: #f0f4dc;
     	height: $base-font-size * 2;
     	line-height: $base-font-size * 2;
         font-size: $base-font-size;
@@ -113,11 +113,11 @@ header.header-image {
             margin-bottom: $margin-none;
 
         	.fa-twitter, .fa-facebook, .fa-linkedin, .fa-google-plus {
-        		color: $color-primary;
+        		color: #a5e200;
         	}
 
         	.fa-twitter:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-google-plus:hover {
-        		color: $color-primary-darker;
+        		color: #88ba00;
         	}
         }
     }
