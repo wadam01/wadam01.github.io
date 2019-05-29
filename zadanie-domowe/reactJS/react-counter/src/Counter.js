@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ButtonPanel from './ButtonPanel';
 import SetValuePanel from './SetValuePanel';
+import Step from './Step';
 
 class Counter extends Component {
 
@@ -32,6 +33,12 @@ class Counter extends Component {
         this.setState({counterValue: newValue});
     }
 
+    myStepVal = (stepValue) => {
+        this.setState({
+            counterValue: this.state.counterValue + stepValue     
+        });
+    }
+
 
   render() {
     return (
@@ -42,6 +49,7 @@ class Counter extends Component {
             zeroCounterValue={this.zeroValue} 
             initCounterValue={this.initialValue} />
           <SetValuePanel myCounterValue={this.myValue} />
+          <Step myStepValue={this.myStepVal} />
       </div>
     );
   }
